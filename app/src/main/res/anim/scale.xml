@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 缩放动画 -->
+<!-- fromXScale，fromYScale动画开始时x，y的缩放大小 -->
+<!-- toXScale，toXScale：动画结束的x，y缩放大小 -->
+<!-- pivotX，pointY：缩放的中心坐标位置，与平移动画设置类似
+    50： 表示50个像素，是绝对值
+    50%： 表示自身中心位置
+    50%p ：表示父元素的中心位置，p表示相对于父元素-->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="3000">
+    <scale
+        android:fromXScale="1"
+        android:fromYScale="1"
+        android:toXScale="2"
+        android:toYScale="2"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        />
+</set>

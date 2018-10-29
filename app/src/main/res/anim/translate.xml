@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 平移动画 -->
+<!-- fromXDelta，fromYDelta表示动画开始时的x，y坐标 -->
+<!-- toXDelta，toYDelta表示动画结束的x，y坐标，这里需要注意的是他可以设置三种类型的值
+    (1) 50： 表示50个像素，是绝对值
+    (2) 50%： 表示自身大小一半，记住这里是可以设置%号的，他等于0.5，如果设置0.5表示绝对值0.5
+    (3) 50%p ：表示父元素大小的一半，p表示相对于父元素 -->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="3000">
+    <translate
+        android:fromXDelta="0"
+        android:fromYDelta="0"
+        android:toXDelta="100"
+        android:toYDelta="100"
+        />
+</set>

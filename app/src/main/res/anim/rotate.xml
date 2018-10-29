@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 旋转动画 -->
+<!-- fromDegrees表示动画开始的角度，toDegrees表示动画结束的角度，正数为顺时针，负数为逆时针 -->
+<!-- pivotX，pointY：旋转的中心坐标位置，设置的方式与缩放相似 -->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="5000">
+    <rotate
+        android:fromDegrees="0"
+        android:toDegrees="360"
+        android:pivotX="50%"
+        android:pivotY="50%" />
+</set>
